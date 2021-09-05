@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>
+            ARITHMEIC OPERATIONS ASSIGNMENT
+        </title>
+        <style type="text/css">
+        h2{ color: rgb(64, 175, 175);font-size: 20px;font-family: 'Courier New', Cour
+        </style>
+        <script type="text/javascript">
+        var a=10;
+        var b=20;
+        var result;
+        document.write("Value of x="+x+"<br>Value of y="+y+"<br><hr>");
+
+        function Addition()
+        {
+            alert("Addition")
+            result=a+b;
+            document.write("Addition="+rersult);
+        }
+        function Substraction()
+        {   alert("Substraction")
+            result=a-b;
+            document.write("Substraction="+result);
+        }
+        function Multiplication()
+        {
+            alert("Multiplication")
+            result=a*b;
+            document.write("Multiplication="+result);
+        }
+        function Division()
+        {
+            alert("Division")
+            result=a/b;
+            document.write("division="+result);
+        }
+        </script>
+    </head>
+
+    <body>
+       <h2> ---This are javascript Arithmetic operations ----- </h2>
+       <form >
+        <input type="button" value="Addition" onclick="Addition()"> 
+        <input type="button" value="Substraction" onclick="Substraction()">
+        <input type="button" value="Multiplication" onclick="Multiplication()">
+        <input type="button" value="division" onclick="Division()">
+    </Form>
+    </body>
+</html>
